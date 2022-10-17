@@ -1,0 +1,13 @@
+@font-face {
+    font-family: iranyekan;
+    src: url(Fonts/IRANYekanWebRegular.eot);
+    src: url(Fonts/IRANYekanWebRegular.woff) format('woff'),
+          url(Fonts/IRANYekanWebRegular.ttf) format('ttf'),
+          url(Fonts/IRANYekanWebRegular.woff2) format('woff2');
+
+
+}
+body {
+    font-family: iranyekan;
+    direction: rtl;
+}
