@@ -1,13 +1,137 @@
-@font-face {
-    font-family: iranyekan;
-    src: url(Fonts/IRANYekanWebRegular.eot);
-    src: url(Fonts/IRANYekanWebRegular.woff) format('woff'),
-          url(Fonts/IRANYekanWebRegular.ttf) format('ttf'),
-          url(Fonts/IRANYekanWebRegular.woff2) format('woff2');
-
-
-}
 body {
-    font-family: iranyekan;
-    direction: rtl;
+	padding: 20px;
+	background-color: #C4D3F6  !important; 
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.6rem;
 }
+
+
+.button {
+	line-height: 1;
+	display: inline-block;
+	font-size: 1.2rem;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #fff;
+	border-style: solid;
+	border-color: transparent;
+	padding: 8px;
+	background-color: #6c7ae0;
+	width: 50%;
+  }
+
+  .button1{
+	width: 10%;
+	font-size: 30px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: transparent;
+	color: #fff;
+	background-color: #6c7ae0;
+  }
+  .button1:hover{
+	border-style: solid;
+	color: #6c7ae0;
+	border-color: #6c7ae0;
+	background-color:transparent;
+  }
+
+  .button2{
+	width: auto;
+	font-size: 15px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: transparent;
+	color: #fff;
+	background-color: #6c7ae0;
+  }
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  table {
+	display: block;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  tr, td, tbody {
+	display: block;
+	padding: 10px 10px 0;
+	text-align: center;
+	padding-bottom: 10px;
+  }
+  
+  thead {
+	display: none;
+	background-color: #6c7ae0;
+	color: #fff;
+	border: 1px solid transparent;
+	text-align: center;
+	font-weight: 700;
+  }
+
+  .select {
+	padding-bottom: 20px;
+	border-bottom: 1px solid transparent;
+  }
+  .select:before {
+	display: none;
+  }
+  
+  @media (min-width: 460px) {
+
+	td:before {
+	  display: inline-block;
+	  text-align: center;
+	}
+  
+  }
+  @media (min-width: 720px) {
+	table {
+	  display: table;
+	}
+  
+	tr {
+	  display: table-row;
+	}
+  
+	td, th {
+	  display: table-cell;
+	}
+  
+	tbody {
+	  display: table-row-group;
+	  background-color: #fff;
+	}
+  
+	thead {
+	  display: table-header-group;
+	}
+  
+  
+	td {
+	  border: 1px solid transparent;
+	}
+	td:before {
+	  display: none;
+	}
+  
+	td, th {
+	  padding: 10px;
+	}
+  
+	tr:nth-child(2n+2) td {
+	  background-color: #fff;
+	}
+  
+	.select {
+	  padding: 10px;
+
+	}
+  }
